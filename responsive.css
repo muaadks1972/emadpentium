@@ -1,0 +1,436 @@
+@media (max-width: 1298px) {
+    html {
+        font-size: 14px
+    }
+
+    .employee-info.branch-info ul li {
+        min-width: 100%;
+        max-width: 100%;
+        text-align: right;
+    }
+}
+
+
+@media (max-width: 998px) {
+    .nav-menu-box ul li {
+        width: 23%;
+    }
+
+    html {
+        font-size: 13px
+    }
+
+
+}
+
+
+@media all and (max-width: 768px) {
+    html {
+        font-size: 15px
+    }
+
+    .site-login-box {
+
+        max-width: 450px;
+    }
+
+    .login-wrapper {
+        background-image: url("../images/login/back.png");
+        background-position: right top;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-size: 100%;
+    }
+
+    .site-login-box:before {
+        top: -109px;
+        left: -66px;
+        background-image: url(../images/login/bag.png);
+        background-repeat: no-repeat;
+        background-position: 0 top;
+        display: block;
+        content: "";
+        background-size: 52%;
+        height: 233px;
+    }
+
+    .nav-menu-box ul li {
+        width: 23%;
+    }
+
+    .footer-toolbar ul.footer-menu li {
+    }
+
+    .footer-toolbar ul.footer-menu li i {
+        font-size: 1.7rem;
+    }
+
+    .footer-toolbar .footer-menu li a, .footer-toolbar .footer-menu li button {
+        font-size: 1.1rem
+    }
+
+    .menu-section .navbar-collapse {
+        margin: 0 auto
+    }
+
+    .menu-section .navbar-header {
+        display: none
+    }
+
+    .container {
+        max-width: 100%
+    }
+
+    .main-content-wrapper {
+        padding-right: 30px;
+        padding-left: 30px
+    }
+
+    .main-header .container {
+        max-width: 100%
+    }
+}
+
+@media all and (max-width: 668px) {
+    html {
+        font-size: 14px
+    }
+
+    .site-login-box {
+
+        max-width: 430px;
+    }
+
+
+    .field-loginform-rememberme label {
+        font-size: 13px;
+
+    }
+
+    .nav-menu-box ul li {
+        width: 30%;
+    }
+
+    .main-header .brand-logo img {
+        max-height: 43px;
+    }
+
+    .list-employee-info table th {
+        max-width: unset
+    }
+
+    .nav-menu-box ul {
+        margin: 0 auto
+    }
+
+}
+
+@media all and (max-width: 568px) {
+    html {
+        font-size: 13px
+    }
+
+    .employee-info-col {
+    }
+
+    .employee-info ul li strong.lable-user {
+        min-width: 100px
+    }
+
+    .employee-info-2 ul li strong.lable-user {
+        min-width: 85px;
+
+    }
+
+    .employee-info-1 ul li strong.lable-user {
+        min-width: 50px;
+    }
+
+    .employee-info ul li span.ans-user {
+        min-width: auto
+    }
+
+    body.main-body {
+        padding-top: 60px;
+        padding-bottom: 85px;
+
+        background-image: url("../images/Mobile-Background.png");
+    }
+
+    .main-header .brand-logo img {
+        max-height: 40px;
+    }
+
+    .login-footer {
+        text-align: center;
+        margin-bottom:70px;
+    }
+
+    .field-icon {
+
+        top: 36px;
+    }
+   .sendemail-text{margin: 40px 20px; }
+    .error-menu ul li{margin: 10px}
+}
+
+@media all and (max-width: 480px) {
+    .main-content-wrapper {
+        padding: 0 20px
+    }
+
+    html {
+        font-size: 12px
+    }
+
+    .nav-menu-box ul li {
+        width: 48%;
+    }
+
+    .nav-menu-box ul li:last-child {
+      /*  width: 96%;*/
+    }
+
+    .site-login-box:before {
+
+    }
+
+    .site-login-box:before {
+
+        top: -85px;
+        left: -60px;
+        background-image: url("../images/login/bag3.png");
+    }
+
+    #login-box {
+        padding: 20px 39px 5px;
+    }
+
+    .site-login {
+        /* height: auto;*/
+        max-width: 100%;
+
+    }
+
+    .employee-info ul li strong.lable-user {
+        min-width: auto
+    }
+
+    .nav-menu-box ul li a {
+        font-size: 1.2rem
+    }
+
+    .list-employee-info table th {
+        font-size: 1.1rem
+    }
+
+    .list-employee-info table td {
+        font-size: 1.2rem
+    }
+
+    .login-logo {
+        margin-top: 10px
+    }
+
+    .login-logo img {
+        max-width: 200px
+    }
+
+    .login-footer img {
+        max-width: 55px
+    }
+
+    #login-box .control-label {
+        font-size: 1.4rem
+    }
+
+    #login-form input.form-control {
+        font-size: 1.4rem
+    }
+
+    .employee-info ul li {
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+
+    .employee-info .employee-info-table th {
+        font-size: 1.1rem;
+        width: auto;
+    }
+
+    .employee-info .employee-info-table td {
+        font-size: 1.1rem;
+    }
+
+    .site-login-box:before {
+        top: -80px;
+        left: -32px;
+        background-size: 45%;
+    }
+
+    .login-wrapper .container {
+
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .nav-menu-box ul li a {
+        padding-right: 32px;
+    }
+
+
+    .page-header:before {
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        background: #428dfc;
+        border-radius: 50%;
+        content: '';
+        margin-left: 16px;
+        z-index: 1;
+        position: relative;
+        margin-right: 7px;
+    }
+
+    .page-header:after {
+        width: 43px;
+        height: 22px;
+        display: block;
+        background: #fff;
+        border-radius: 20px 0 0 20px;
+        content: '';
+        position: absolute;
+        right: -20px;
+
+        margin-left: 15px;
+        border: 1px solid #428dfc;
+        border-right: none;
+        top: -2px;
+    }
+    .employee-info ul li span.span-employment_date {
+        text-align: center;
+        display: block;
+        width: 100%;
+        padding-right: 60px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    html {
+        font-size: 11px
+    }
+
+    .site-login-box:before {
+        top: -85px;
+        left: -32px;
+        background-size: 48%;
+    }
+
+    .main-content-wrapper {
+        padding: 0 15px;
+        min-width: 240px
+    }
+
+    .white-bordered-box {
+        padding: 12px
+    }
+        .showEmployeeInfo-div{padding-right: 20px}
+    .page-header:after {
+        width: 39px;
+        top: -4px;
+        right: -15px;
+    }
+
+    .main-form-box {
+        border-radius: 30px;
+        padding: 20px 15px 10px;
+    }
+    .employee-info .employee-info-table th {
+        font-size: 1rem;
+
+    }
+
+    .employee-info .employee-info-table td {
+        font-size: 1rem;
+    }
+
+
+}
+
+
+@media all and (max-width: 390px) {
+
+    #login-box .control-label {
+
+        font-size: 13px;
+    }
+
+    .footer-toolbar .footer-menu li a, .footer-toolbar .footer-menu li button {
+        font-size: 1rem
+    }
+
+    .employee-info-col {
+        max-width: 100%;
+        width: 100%;
+        flex: unset;
+        padding: 0 15px !important;
+    }
+
+    .main-header .container {
+        max-width: 100%;
+    }
+
+    .employee-info ul li {
+        margin-top: 8px;
+    }
+
+    .main-form-box {
+
+        padding: 20px 10px 10px;
+    }
+    .check_times-div div .besme-icon{padding-left: 5px}
+    .check_times-div  div table td{font-size: 12px}
+}
+
+@media all and (max-width: 340px) {
+    html {
+        font-size: 10px
+    }
+
+    .footer-toolbar .footer-menu li a, .footer-toolbar .footer-menu li button {
+        font-size: 0.9rem
+    }
+
+    .site-login-box:before {
+        display: none
+    }
+
+    .forget a {
+        font-size: 12px;
+    }
+
+    .field-loginform-rememberme label {
+        font-size: 12px;
+    }
+
+    #login-box {
+        padding: 20px 24px 5px;
+    }
+    .check_times-div  div table td{font-size: 11px}
+}
+
+@media all and (max-width: 310px) {.in-time{margin-right: 5px;padding-right: 21px}
+
+.out-time{margin-left:5px;padding-right: 21px}
+    .nav-menu-box ul li {
+        width: 98%
+    }
+}@media all and (max-width: 290px) {
+
+    .time-d{width: 100%;max-width: 100%}
+    .in-out-time{display: none}
+    .day-description{display:none}
+}
+@media all and (min-width: 569px) {
+}
+

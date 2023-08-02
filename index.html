@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap.rtl.css" rel="stylesheet">
+    <link href="emad.css" rel="stylesheet">
+<link href="/css/bootstrap.rtl.min.css" rel="stylesheet">
+<link href="/plugins/select2/css/select2.min.css" rel="stylesheet">
+<link href="/fonts/tayyeb-icon/icomoon/style.css" rel="stylesheet">
+<link href="/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="styles
+Username
+heet">
+<link href="/css/font-awesome.css" rel="stylesheet">
+<link href="/css/styles.css" rel="stylesheet">
+<link href="/css/responsive.css" rel="stylesheet">
+<link href="/manifest.json" rel="manifest">
+<link rel="apple-touch-icon" href="/docs/4.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/4.0/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/4.0/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body >
+  <a name="ِADDEmp"></a>
+  <div class="alert alert-primary" role="alert" dir="rtl">
+   <h3>نظام الموارد البشرية</h3>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid" dir="rtl">
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#edit" role="button">شاشة التعديل </a>
+        </p>
+    </div>
+  </nav>
+  </div>
+
+
+
+  <div dir="rtl" class="light-saber"><a style="font-size: 25px";font-family: Cambria; flood-color: rgb(6, 89, 243);">شاشة أدخال بيانات موظف جديد</a></div>
+
+  <div style="margin:0px;padding-right: 50px; padding-left: 50px;">
+  <div class="form-group row" dir="rtl">
+    <div class="col-xs-2">
+      <label for="ex1">رقم الحاسبة</label>
+      <input class="form-control" id="ex1" type="text">
+    </div>
+    <div class="col-xs-2">
+      <label for="ex1">الرقم الاحصائي</label>
+      <input class="form-control" id="ex1" type="text">
+    </div>
+    <div class="col-xs-2">
+      <label for="ex1">رقم الهوية</label>
+      <input class="form-control" id="ex1" type="text">
+    </div>
+  </div>
+
+  </div>
+  <div style="margin:0px;padding-right: 50px; padding-left: 50px;">
+    <div class="form-group row" dir="rtl">
+    <div class="col-xs-2">
+      <label for="ex1">الاسم الاول</label>
+      <input class="form-control" id="ex1" type="text"  style="background-color: rgb(72, 231, 23);">
+    </div>
+    <div class="col-xs-2">
+      <label for="ex1">الاسم الثاني</label>
+      <input class="form-control" id="ex1" type="text"  style="background-color: rgb(72, 231, 23);">
+    </div>
+    <div class="col-xs-2">
+      <label for="ex1">الاسم الثالت</label>
+      <input class="form-control" id="ex1" type="text"  style="background-color: rgb(72, 231, 23);">
+    </div>
+    <div class="col-xs-2">
+      <label for="ex1">الاسم الرابع</label>
+      <input class="form-control" id="ex1" type="text"  style="background-color: rgb(72, 231, 23);">
+    </div>
+    <div class="col-xs-2">
+      <label for="ex1">اللقب </label>
+      <input class="form-control" id="ex1" type="text"  style="background-color: rgb(72, 231, 23);">
+    </div>
+
+  </div>
+</div>
+
+<div style="margin:0px;padding-right: 50px; padding-left: 50px;">
+    <div class="form-group row" dir="rtl">
+    <div class="col-xs-2">
+      <label for="ex1">تاريخ الميلاد</label>
+      <input class="form-control" id="ex1" type="date">
+    </div>
+    
+    
+    
+      <div class="col-xs-2">
+        <label for="ex1">الجنس </label>
+        <div class="form-floating">
+         
+          <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+            <option selected ></option>
+            <option value="1" >ذكر</option>
+            <option value="2">انثى</option>
+          
+          </select>
+        </div>
+      </div>
+        
+        <div class="col-xs-2">
+          <label for="ex1">الحالة الزوجية </label>
+          <div class="form-floating">
+           
+            <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+              <option selected style="font-family:arial"></option>
+              <option value="1">اعزب</option>
+              <option value="2">متزوج</option>
+              <option value="1">مطلق</option>
+              <option value="2">ارمل</option>
+             
+            
+            </select>
+          </div>
+        </div>
+            <div class="col-xs-2">
+              <label for="ex1">اسم الام </label>
+              <input class="form-control" id="ex1" type="text">
+            </div>
+          </div>
+        </div>
+    </div>
+    <div style="margin:0px;padding-right: 50px; padding-left: 50px;">
+      <div class="form-group row" dir="rtl">
+      
+      
+      
+        <div class="col-xs-2">
+          <label for="ex1">الدرجة الوظيفية </label>
+          <div class="form-floating">
+           
+            <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+              <option selected></option>
+              <option value="1">الاولى</option>
+              <option value="2">الثانية</option>
+              <option value="3">الثالثة</option>
+              <option value="4">الرابعة</option>
+              <option value="5">الخامسة</option>
+              <option value="6">السادسة</option>
+              <option value="7">السابعة</option>
+              <option value="8">الثامنة</option>
+              <option value="9">التاسعة</option>
+              <option value="10">العاشرة</option>
+            
+            </select>
+          </div>
+        </div>
+          
+          <div class="col-xs-2">
+            <label for="ex1">المرحلة  </label>
+            <div class="form-floating">
+             
+              <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                <option selected></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                
+
+
+              
+              </select>
+            </div>
+          </div>
+          <div class="col-xs-2">
+            <label for="ex1">العنوان الوظيفي  </label>
+            <div class="form-floating">
+             
+              <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                <option selected></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                
+
+
+              
+              </select>
+            </div>
+          </div>
+          <div class="col-xs-2">
+            <label for="ex1">استمرارية الخدمة  </label>
+            <div class="form-floating">
+             
+              <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                <option selected></option>
+                <option value="1">مستمر</option>
+                <option value="2">نقل</option>
+                <option value="3">متقاعد</option>
+                <option value="4">مستقيل</option>
+                <option value="5">انهاء خدمات</option>
+                <option value="6">متوفي</option>
+                <option value="عقد">ملاك سلطة الطيران</option>
+                <option value="اجر يومي">سحب يد</option>
+                <option value="9">عزل</option>
+                <option value="10">منسب من خارج التشكيل</option>
+                
+            
+              </select>
+            </div>
+          </div>
+            </div>
+          </div>
+    
+          <div style="margin:0px;padding-right: 50px; padding-left: 50px;">
+            <div class="form-group row" dir="rtl">
+            
+            
+            
+              <div class="col-xs-2">
+                <label for="ex1">التحصيل الدراسي  </label>
+                <div class="form-floating">
+                 
+                  <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                    <option selected></option>
+                    <option value="1">دكتوراء</option>
+                    <option value="2">ماجستير</option>
+                    <option value="3">دبلوم عالي</option>
+                    <option value="4">بكلوريوس</option>
+                    <option value="5">اعدادية</option>
+                    <option value="6">متوسطة</option>
+                    <option value="7">ابتدائية</option>
+                    <option value="8">بدون مؤهل</option>
+                                    
+                  </select>
+                </div>
+              </div>
+                
+                <div class="col-xs-2">
+                  <label for="ex1">المنصب  </label>
+                  <div class="form-floating">
+                   
+                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                      <option selected></option>
+                      <option value="1">مدير عام</option>
+                      <option value="2">معاون مدير عام</option>
+                      <option value="3">مدير قسم</option>
+                      <option value="4">مدير شعبة</option>
+                                  
+      
+                      
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xs-2">
+                  <label for="ex1">القسم   </label>
+                  <div class="form-floating">
+                   
+                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                      <option selected></option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      
+      
+      
+                    
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xs-2">
+                  <label for="ex1">الشعبة   </label>
+                  <div class="form-floating">
+                   
+                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                      <option selected></option>
+                      <option value="1">مستمر</option>
+                                            
+                  
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xs-2">
+                  <label for="ex1">ملاك الموظف   </label>
+                  <div class="form-floating">
+                   
+                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                      <option selected></option>
+                      <option value="1">منسب</option>
+                      <option value="1">غير منسب</option>                
+                  
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xs-2">
+                  <label for="ex1">الحالة الوظيفية   </label>
+                  <div class="form-floating">
+                   
+                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                      <option selected></option>
+                      <option value="1">موظف دائمي</option>
+                      <option value="1">موظف عقد</option>
+                                            
+                                   
+                  
+                    </select>
+                  </div>
+                </div>
+            </div>
+          </div>
+        
+
+  
+
+
+<div style="margin: 0px;padding-right: 50px; padding-left: 50px;">
+ <div class="form-group row" dir="rtl">
+  <div class="col-xs-2">
+<div class="card bg-light mb-3" style="max-width: 18rem; border: top right radius 50px;">
+  <div class="card-header">معلومات</div>
+  <div class="card-body">
+    <h3 class="card-title">معلومات التعيين</h3>
+  </div>
+</div>
+  </div>
+
+
+
+  <div class="col-xs-2">
+    <label for="ex1">رقم كتاب التعيين </label>
+    <input class="form-control" id="ex1" type="text">
+  </div>
+  <div class="col-xs-2">
+    <label for="ex1">تاريخ التعيين</label>
+    <input class="form-control" id="ex1" type="date">
+  </div>
+  <div class="col-xs-2">
+    <label for="ex1">رقم كتاب المباشرة </label>
+    <input class="form-control" id="ex1" type="text">
+  </div>
+  <div class="col-xs-2">
+    <label for="ex1">تاريخ كتاب المباشرة</label>
+    <input class="form-control" id="ex1" type="date">
+  </div>
+  <div class="col-xs-2">
+    <label for="ex1">تاريخ المباشرة الفعلي</label>
+    <input class="form-control" id="ex1" type="date">
+  </div>
+
+</div>
+</div>
+ 
+
+            </div>
+                  
+          
+            <div style="margin: 0px;padding-right: 50px; padding-left: 50px;">
+              <div class="form-group row" dir="rtl">
+               <div class="col-xs-2">
+             <div class="card bg-light mb-3" style="max-width: 18rem; border: top right radius 50px;">
+               <div class="card-header">معلومات</div>
+               <div class="card-body">
+                 <h3 class="card-title">معلومات شهادة التعيين</h3>
+               </div>
+             </div>
+               </div>
+             
+             
+             
+               <div class="col-xs-2">
+                 <label for="ex1">الجهة المانحة   </label>
+                 <input class="form-control" id="ex1" type="text">
+               </div>
+               
+               <div class="col-xs-2">
+                 <label for="ex1">التخصص   </label>
+                 <input class="form-control" id="ex1" type="text">
+               </div>
+               <div class="col-xs-2">
+                <label for="ex1">سنة التخرج    </label>
+                <input class="form-control" id="ex1" type="text">
+              </div>
+              <div class="col-xs-2">
+                <label for="ex1">رقم صحة الصدور    </label>
+                <input class="form-control" id="ex1" type="text">
+              </div>
+               <div class="col-xs-2">
+                 <label for="ex1">تاريخ صحة الصدور </label>
+                 <input class="form-control" id="ex1" type="date">
+               </div>
+             
+             </div>
+             </div>
+              
+             
+                         </div>
+          
+          
+                         <div style="margin: 0px;padding-right: 50px; padding-left: 50px;">
+                          <div class="form-group row" dir="rtl">
+                           <div class="col-xs-2">
+                         <div class="card bg-light mb-3" style="max-width: 18rem; border: top right radius 50px;">
+                           <div class="card-header">معلومات</div>
+                           <div class="card-body">
+                             <h4 class="card-title">الامر الوزاري او الادري الخاص بعدم استمرارية الخدمة  </h4>
+                           </div>
+                         </div>
+                           </div>
+                         
+                         
+                          <div class="col-xs-2">
+                            <label for="ex1">رقم الكتاب     </label>
+                            <input class="form-control" id="ex1" type="text">
+                          </div>
+                           <div class="col-xs-2">
+                             <label for="ex1">تاريخ  الكتاب </label>
+                             <input class="form-control" id="ex1" type="date">
+                           </div>
+                         
+                         
+                         
+                          <div class="col-xs-2">
+                            <button type="button" class="btn btn-lg btn-primary" dir="rtl">حفظ البيانات </button>
+                      
+                          </div>
+                         
+                        
+                         </div>
+                          
+                                       </div>
+                      
+                      
+                           </div>
+          </div>
+               
+      </div>
+    </div>
+    </div>
+        </div>
+      </div>
+      </div>
+      <a name="edit"></a>
+      <nav class="navbar" style="background-color: #e3f2fd; font-size: large; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";>
+        
+            <a style="font-size: 20px;"> شاشة التعديل</a>
+          </form>
+        </div>
+      </nav>
+
+  </div>
+  
+  </div>
+</div>
+
+<div style="margin:0px;padding-right: 50px; padding-left: 50px;">
+  <div class="form-group row" dir="rtl">
+    <div class="col-xs-2">
+      <label for="ex1">البحث بواسطة رقم الحاسبة </label>
+      <input class="form-control" id="ex1" type="text"  style="background-color: rgb(11, 243, 62);">
+  
+    </div>
+  
+
+    <div class="col-xs-2">
+      <label for="ex1">البحث بواسطة اسم الموظف</label>
+      <input class="form-control" id="ex1" type="text"  style="background-color: rgb(11, 243, 62);">
+    </div>
+    
+    </div>
+    
+  </div>
+
+  
+
+<div style="margin:0px;padding-right: 50px; padding-left: 50px;">
+  <div class="form-group row" dir="rtl">
+    <div class="col-xs-2">
+      <label for="ex1">رقم الحاسبة</label>
+      <input class="form-control" id="ex1" type="text">
+    </div>
+    <div class="col-xs-2">
+      <label for="ex1">الرقم الاحصائي</label>
+      <input class="form-control" id="ex1" type="text">
+    </div>
+    <div class="col-xs-2">
+      <label for="ex1">رقم الهوية</label>
+      <input class="form-control" id="ex1" type="text">
+    </div>
+  </div>
+
+  </div>
+  <div style="margin:0px;padding-right: 50px; padding-left: 50px;">
+    <div class="form-group row" dir="rtl">
+    <div class="col-xs-2">
+      <label for="ex1">الاسم الاول</label>
+      <input class="form-control" id="ex1" type="text"  style="background-color: rgb(84, 9, 223);">
+    </div>
+    <div class="col-xs-2">
+      <label for="ex1">الاسم الثاني</label>
+      <input class="form-control" id="ex1" type="text"  style="background-color: rgb(84, 9, 223);">
+    </div>
+    <div class="col-xs-2">
+      <label for="ex1">الاسم الثالت</label>
+      <input class="form-control" id="ex1" type="text"  style="background-color: rgb(84, 9, 223);">
+    </div>
+    <div class="col-xs-2">
+      <label for="ex1">الاسم الرابع</label>
+      <input class="form-control" id="ex1" type="text"  style="background-color: rgb(84, 9, 223);">
+    </div>
+    <div class="col-xs-2">
+      <label for="ex1">اللقب </label>
+      <input class="form-control" id="ex1" type="text"  style="background-color: rgb(84, 9, 223);">
+    </div>
+
+  </div>
+</div>
+
+<div style="margin:0px;padding-right: 50px; padding-left: 50px;">
+    <div class="form-group row" dir="rtl">
+    <div class="col-xs-2">
+      <label for="ex1">تاريخ الميلاد</label>
+      <input class="form-control" id="ex1" type="date">
+    </div>
+    
+    
+    
+      <div class="col-xs-2">
+        <label for="ex1">الجنس </label>
+        <div class="form-floating">
+         
+          <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+            <option selected ></option>
+            <option value="1" >ذكر</option>
+            <option value="2">انثى</option>
+          
+          </select>
+        </div>
+      </div>
+        
+        <div class="col-xs-2">
+          <label for="ex1">الحالة الزوجية </label>
+          <div class="form-floating">
+           
+            <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+              <option selected style="font-family:arial"></option>
+              <option value="1">اعزب</option>
+              <option value="2">متزوج</option>
+              <option value="1">مطلق</option>
+              <option value="2">ارمل</option>
+             
+            
+            </select>
+          </div>
+        </div>
+            <div class="col-xs-2">
+              <label for="ex1">اسم الام </label>
+              <input class="form-control" id="ex1" type="text">
+            </div>
+          </div>
+        </div>
+    </div>
+    <div style="margin:0px;padding-right: 50px; padding-left: 50px;">
+      <div class="form-group row" dir="rtl">
+      
+      
+      
+        <div class="col-xs-2">
+          <label for="ex1">الدرجة الوظيفية </label>
+          <div class="form-floating">
+           
+            <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+              <option selected></option>
+              <option value="1">الاولى</option>
+              <option value="2">الثانية</option>
+              <option value="3">الثالثة</option>
+              <option value="4">الرابعة</option>
+              <option value="5">الخامسة</option>
+              <option value="6">السادسة</option>
+              <option value="7">السابعة</option>
+              <option value="8">الثامنة</option>
+              <option value="9">التاسعة</option>
+              <option value="10">العاشرة</option>
+            
+            </select>
+          </div>
+        </div>
+          
+          <div class="col-xs-2">
+            <label for="ex1">المرحلة  </label>
+            <div class="form-floating">
+             
+              <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                <option selected></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                
+
+
+              
+              </select>
+            </div>
+          </div>
+          <div class="col-xs-2">
+            <label for="ex1">العنوان الوظيفي  </label>
+            <div class="form-floating">
+             
+              <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                <option selected></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                
+
+
+              
+              </select>
+            </div>
+          </div>
+          <div class="col-xs-2">
+            <label for="ex1">استمرارية الخدمة  </label>
+            <div class="form-floating">
+             
+              <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                <option selected></option>
+                <option value="1">مستمر</option>
+                <option value="2">نقل</option>
+                <option value="3">متقاعد</option>
+                <option value="4">مستقيل</option>
+                <option value="5">انهاء خدمات</option>
+                <option value="6">متوفي</option>
+                <option value="عقد">ملاك سلطة الطيران</option>
+                <option value="اجر يومي">سحب يد</option>
+                <option value="9">عزل</option>
+                <option value="10">منسب من خارج التشكيل</option>
+                
+            
+              </select>
+            </div>
+          </div>
+            </div>
+          </div>
+    
+          <div style="margin:0px;padding-right: 50px; padding-left: 50px;">
+            <div class="form-group row" dir="rtl">
+            
+            
+            
+              <div class="col-xs-2">
+                <label for="ex1">التحصيل الدراسي  </label>
+                <div class="form-floating">
+                 
+                  <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                    <option selected></option>
+                    <option value="1">دكتوراء</option>
+                    <option value="2">ماجستير</option>
+                    <option value="3">دبلوم عالي</option>
+                    <option value="4">بكلوريوس</option>
+                    <option value="5">اعدادية</option>
+                    <option value="6">متوسطة</option>
+                    <option value="7">ابتدائية</option>
+                    <option value="8">بدون مؤهل</option>
+                                    
+                  </select>
+                </div>
+              </div>
+                
+                <div class="col-xs-2">
+                  <label for="ex1">المنصب  </label>
+                  <div class="form-floating">
+                   
+                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                      <option selected></option>
+                      <option value="1">مدير عام</option>
+                      <option value="2">معاون مدير عام</option>
+                      <option value="3">مدير قسم</option>
+                      <option value="4">مدير شعبة</option>
+                                  
+      
+                      
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xs-2">
+                  <label for="ex1">القسم   </label>
+                  <div class="form-floating">
+                   
+                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                      <option selected></option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      
+      
+      
+                    
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xs-2">
+                  <label for="ex1">الشعبة   </label>
+                  <div class="form-floating">
+                   
+                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                      <option selected></option>
+                      <option value="1">مستمر</option>
+                                            
+                  
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xs-2">
+                  <label for="ex1">ملاك الموظف   </label>
+                  <div class="form-floating">
+                   
+                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                      <option selected></option>
+                      <option value="1">منسب</option>
+                      <option value="1">غير منسب</option>                
+                  
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xs-2">
+                  <label for="ex1">الحالة الوظيفية   </label>
+                  <div class="form-floating">
+                   
+                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                      <option selected></option>
+                      <option value="1">موظف دائمي</option>
+                      <option value="1">موظف عقد</option>
+                                            
+                                   
+                  
+                    </select>
+                  </div>
+                </div>
+            </div>
+          </div>
+        
+
+  
+
+
+<div style="margin: 0px;padding-right: 50px; padding-left: 50px;">
+ <div class="form-group row" dir="rtl">
+  <div class="col-xs-2">
+<div class="card bg-light mb-3" style="max-width: 18rem; border: top right radius 50px;">
+  <div class="card-header">معلومات</div>
+  <div class="card-body">
+    <h3 class="card-title">معلومات التعيين</h3>
+  </div>
+</div>
+  </div>
+
+
+
+  <div class="col-xs-2">
+    <label for="ex1">رقم كتاب التعيين </label>
+    <input class="form-control" id="ex1" type="text">
+  </div>
+  <div class="col-xs-2">
+    <label for="ex1">تاريخ التعيين</label>
+    <input class="form-control" id="ex1" type="date">
+  </div>
+  <div class="col-xs-2">
+    <label for="ex1">رقم كتاب المباشرة </label>
+    <input class="form-control" id="ex1" type="text">
+  </div>
+  <div class="col-xs-2">
+    <label for="ex1">تاريخ كتاب المباشرة</label>
+    <input class="form-control" id="ex1" type="date">
+  </div>
+  <div class="col-xs-2">
+    <label for="ex1">تاريخ المباشرة الفعلي</label>
+    <input class="form-control" id="ex1" type="date">
+  </div>
+
+</div>
+</div>
+ 
+
+            </div>
+                  
+          
+            <div style="margin: 0px;padding-right: 50px; padding-left: 50px;">
+              <div class="form-group row" dir="rtl">
+               <div class="col-xs-2">
+             <div class="card bg-light mb-3" style="max-width: 18rem; border: top right radius 50px;">
+               <div class="card-header">معلومات</div>
+               <div class="card-body">
+                 <h3 class="card-title">معلومات شهادة التعيين</h3>
+               </div>
+             </div>
+               </div>
+             
+             
+             
+               <div class="col-xs-2">
+                 <label for="ex1">الجهة المانحة   </label>
+                 <input class="form-control" id="ex1" type="text">
+               </div>
+               
+               <div class="col-xs-2">
+                 <label for="ex1">التخصص   </label>
+                 <input class="form-control" id="ex1" type="text">
+               </div>
+               <div class="col-xs-2">
+                <label for="ex1">سنة التخرج    </label>
+                <input class="form-control" id="ex1" type="text">
+              </div>
+              <div class="col-xs-2">
+                <label for="ex1">رقم صحة الصدور    </label>
+                <input class="form-control" id="ex1" type="text">
+              </div>
+               <div class="col-xs-2">
+                 <label for="ex1">تاريخ صحة الصدور </label>
+                 <input class="form-control" id="ex1" type="date">
+               </div>
+             
+             </div>
+             </div>
+              
+             
+                         </div>
+          
+          
+                         <div style="margin: 0px;padding-right: 50px; padding-left: 50px;">
+                          <div class="form-group row" dir="rtl">
+                           <div class="col-xs-2">
+                         <div class="card bg-light mb-3" style="max-width: 18rem; border: top right radius 50px;">
+                           <div class="card-header">معلومات</div>
+                           <div class="card-body">
+                             <h4 class="card-title">الامر الوزاري او الادري الخاص بعدم استمرارية الخدمة  </h4>
+                           </div>
+                         </div>
+                           </div>
+                         
+                         
+                          <div class="col-xs-2">
+                            <label for="ex1">رقم الكتاب     </label>
+                            <input class="form-control" id="ex1" type="text">
+                          </div>
+                           <div class="col-xs-2">
+                             <label for="ex1">تاريخ  الكتاب </label>
+                             <input class="form-control" id="ex1" type="date">
+                           </div>
+                         
+                         
+                         
+                          <div class="col-xs-2">
+                            <button type="button" class="btn btn-lg btn-primary" dir="rtl">تعديل البيانات </button>
+                      
+                          </div>
+                         
+
+                         </div>
+                          
+                                       </div>
+                      
+                      
+                           </div>
+          </div>
+               
+      </div>
+    </div>
+    </div>
+        </div>
+      </div>
+      </div>
+      <nav class="navbar" style="background-color: #e3f2fd; font-size: large; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";>
+    
+        <a  font-size:10vw class="btn btn-primary btn-lg" href="#ِADDEmp" role="button">الانتقال الى شاشة ادخل بيانت موظف  </a>     
+      
+        
+      </form>
+    </div>
+  </nav>
+</body>
+<footer>
+            
+  <div id="footer1" class="container-fluid">
+      <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 text-center"
+             
+              
+               style=" border-radius: 70px 70px 0 0;
+padding: 15px 15px 15px 15px;
+font-family:Cambria;
+margin: auto;
+background: #fff;
+border: 2px solid #e0f3da;
+width: 97%;
+box-shadow: 0px 6px 40px 10px rgba(240, 24, 2, 0.5);
+-webkit-box-shadow: 0px 6px 40px 10px rgba(240, 24, 2, 0.5); " dir="rtl">
+  <a style="font-size:4vw  Font-Bold=True Font-Names=Calibri;"> تطوير المهندس معاد كاظم ------- المهندس عامر هاشم</a>
+
+</footer>
+
+</html>
